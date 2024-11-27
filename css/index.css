@@ -1,9 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: auto;
 }
 
+/* färger för sidan  */
+:root{
+    --gradient: linear-gradient(45deg, #ff6b6b, #f8e71c);
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --primary-color: #bb86fc;
+    --secondary-color: #03dac6;
+    --border-color: #333;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Poppins;    
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333366;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333366;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: #333366;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    display: flex;
+    text-align: center;
+}
+
+h4{
+    font-size: 1rem;
+    color: #333366;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 10px;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Hamburgar knappen  */
 .hamburger_menu_item{
     display: block;
     margin: 2rem 4rem;
