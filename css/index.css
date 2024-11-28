@@ -15,6 +15,21 @@
     --primary-color: #bb86fc;
     --secondary-color: #03dac6;
     --border-color: #333;
+    --h4-color: #7171c2;
+}
+
+.gradient-name{
+    background: var(--gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+}
+
+/* loga 007 */
+.logo_type{
+    align-items: flex-start;
+    max-width: fit-content;
+    width: 4rem;
 }
 
 html{
@@ -26,22 +41,22 @@ body{
 }
 
 h1 {
-    font-size: 3rem;
-    color: #333366;
+    font-size: 2rem;
+    color: var(--h4-color);
     margin: 10px;
     padding: 10px;
 }
 
 h2 {
     font-size: 2rem;
-    color: #333366;
+    color: var(--h4-color);
     margin: 10px;
     padding: 10px;
 }
 
 h3{
     font-size: 1.5rem;
-    color: #333366;
+    color: var(--h4-color);
     padding: 10px;
     margin: 10px 10px 0 10px;
     display: flex;
@@ -50,7 +65,7 @@ h3{
 
 h4{
     font-size: 1rem;
-    color: #333366;
+    color: var(--h4-color);
     padding: 0 0 0 10px;
     margin: 0 0 0 10px;
 }
@@ -108,3 +123,12 @@ text-decoration: underline;
     transform: translateY(0);
 }
 
+/* emojisarna för länkarna  */
+.logo_navigation_bar{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}

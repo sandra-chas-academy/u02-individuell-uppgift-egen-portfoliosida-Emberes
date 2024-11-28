@@ -5,6 +5,7 @@ async function getCvInfo(filePath) {
             throw new Error('Network response was not ok ' + response.statusText);
         }
         const cvArray = await response.json();
+        console.log(cvArray);
         const container = document.getElementById('all-cv-experience');
         cvArray.forEach(cv => {
             const cvEntry = document.createElement('div');
@@ -28,8 +29,6 @@ async function getCvInfo(filePath) {
             const description = document.createElement('p');
             description.textContent =  `${cv.description}`;
             cvEntry.appendChild(description);
-            // for (const [key, value] of Object.entries(cv)){
-            // }
             const separator = document.createElement('hr');
             cvEntry.appendChild(separator);
             container.appendChild(cvEntry);

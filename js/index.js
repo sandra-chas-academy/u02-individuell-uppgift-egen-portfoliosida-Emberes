@@ -25,3 +25,5 @@ hamburger_menu_item.forEach(
         hamburger_menu_item.addEventListener("click", toggleHamburgerMenu);
     }
 )
+
+// funktion för slideshow
