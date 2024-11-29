@@ -3,80 +3,9 @@
     body {
         font-size: 20px;
     }
+};
 
-    .container {
-        width: auto;
-        padding: 30px;
-    }
-
-    .hamburger{
-        display: none;
-    }
-
-    nav {
-        align-items: center;
-        justify-content: flex-end;
-        flex-direction: row;
-        top: 20px;
-        right: 0;
-    }
-
-    nav a {
-        padding: 15px;
-        justify-content: flex-end;
-        margin-left: 20px;
-        padding: 10px 0;
-        display: inline-block;
-    }
-
-    .nav-bar{
-        display: flex;
-        align-items: center;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
-
-    ul{
-        padding: 0 0 0 10px;
-        margin: 0 0 0 10px; 
-        display: grid;
-    }
-
-    .logo-nav{
-        display: none;
-    }
-
-    .logo-desk{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 4rem;
-        margin-right: auto;
-    }
-
-    .desktop-logo-nav{
-        display: flex;
-    }
-
-    .top-header, .logo{
-        display: none;
-    }
-
-    .all-the-projects{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding-bottom: 2rem;
-        width: auto;
-        
-    }
+/* TABLET */
+@media (min-width: 750px) {
     
-    .project{
-        width: 30%;
-        max-width: 30%;
-        height: 40%;
-
-    }
-} 
-
-
+}
