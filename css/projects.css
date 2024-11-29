@@ -15,6 +15,10 @@
   height: 80px;
   transform: rotate(45deg);
   transform-origin: 40px 40px;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
 }
 .lds-heart div {
   top: 28px;

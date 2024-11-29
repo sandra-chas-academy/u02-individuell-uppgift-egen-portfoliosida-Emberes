@@ -27,3 +27,32 @@ hamburger_menu_item.forEach(
 )
 
 // funktion för slideshow
+const text = document.getElementById('textSlider');
+let position = 0;
+let animationFrame;
+let isAnimating = false;
+
+function slideText() {
+    position -= 2; 
+    text.style.left = position + 'px';
+    if (position + text.offsetWidth < 0) {
+      position = text.parentElement.offsetWidth; 
+    }
+
+      animationFrame = requestAnimationFrame(slideText);
+  }
+  
+  text.addEventListener('mouseenter', () => {
+    if (!isAnimating) {
+      isAnimating = true; 
+      position = parseInt(getComputedStyle(text).left, 10) || 0;
+      animationFrame = requestAnimationFrame(slideText);
+    }
+  });
+  
+  // Stoppa sliden när man hoovrar över 
+  
+//   text.addEventListener('mouseleave', () => {
+//     cancelAnimationFrame(animationFrame);
+//     isAnimating = false; // Mark animation as stopped
+//   });
