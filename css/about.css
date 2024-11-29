@@ -11,12 +11,12 @@
     align-items: space-between;
 }
 
-ul{
+/* ul{
     padding: 0 10px 10px 10px;
     margin: 0 10px 10px 10px; 
     list-style-type: none;
     width: 100%;
-}
+} */
 
 #date {
     font-size: 0.9rem;
