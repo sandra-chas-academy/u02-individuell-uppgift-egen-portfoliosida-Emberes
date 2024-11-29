@@ -29,6 +29,20 @@ async function getCvInfo(filePath) {
             const description = document.createElement('p');
             description.textContent =  `${cv.description}`;
             cvEntry.appendChild(description);
+
+            const icon = document.createElement('i');
+            icon.classList.add('fa-solid', 'fa-building'); 
+            icon.classList.add('fa-solid', 'fa-location-dot');
+            const iconLink = document.createElement('a');
+            iconLink.setAttribute('href', cv.html_url); 
+            iconLink.appendChild(icon);
+            cvEntry.appendChild(iconLink);
+
+            // const url = document.createElement('a');
+            // url.setAttribute('href', repo.html_url);
+            // url.innerHTML = 'View GitHub repo here';
+            // repoEntry.appendChild(url);
+
             const separator = document.createElement('hr');
             cvEntry.appendChild(separator);
             container.appendChild(cvEntry);
