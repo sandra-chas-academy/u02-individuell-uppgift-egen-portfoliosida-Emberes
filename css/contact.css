@@ -1,0 +1,20 @@
+section.contact{
+    text-align: center;
+} 
+
+.contact-h1{
+    font-size: 3rem;
+    color: var(--text-color);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-info a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+section.home-page{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 200px;
+    height: 100vh;
+}
+
+.profile-photo{
+    display: flex;
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+    border: solid black;
+}
+

@@ -1,33 +1,32 @@
 #all-cv-experience{
     color: #2c3e50;
     margin-bottom: 1.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #experience-item{
     display: flex;
     flex: 1;
     justify-content: space-between;
-    border: solid red 1px;
+    border: solid black 1px;
     align-items: space-between;
 }
-
-/* ul{
-    padding: 0 10px 10px 10px;
-    margin: 0 10px 10px 10px; 
-    list-style-type: none;
-    width: 100%;
-} */
 
 #date {
     font-size: 0.9rem;
     color: black;
     margin-top: 0.5rem;
-    display: inline-block;
+    display: flex;
     text-align: center;
+    justify-content: center;
     white-space: nowrap;
 }
 
 .job-symbols{
     display: flex;
     flex-direction: row;
+    color: black;
 }

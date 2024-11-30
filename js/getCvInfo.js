@@ -11,6 +11,7 @@ async function getCvInfo(filePath) {
             const cvEntry = document.createElement('div');
             cvEntry.id = 'experience-item';
             const type = document.createElement('span');
+            type.id = 'type';
             type.textContent =  `${cv.type}`;
             cvEntry.appendChild(type);
             const title = document.createElement('h4');
@@ -30,18 +31,20 @@ async function getCvInfo(filePath) {
             description.textContent =  `${cv.description}`;
             cvEntry.appendChild(description);
 
-            const icon = document.createElement('i');
-            icon.classList.add('fa-solid', 'fa-building'); 
-            icon.classList.add('fa-solid', 'fa-location-dot');
             const iconLink = document.createElement('a');
-            iconLink.setAttribute('href', cv.html_url); 
-            iconLink.appendChild(icon);
+            iconLink.setAttribute('href', cv.html_url);             
+            const buildingIcon = document.createElement('i');
+            buildingIcon.classList.add('fa-solid', 'fa-building');
+            buildingIcon.class = 'job-symbols';
+            const locationIcon = document.createElement('i');
+            locationIcon.classList.add('fa-solid', 'fa-location-dot');
+            locationIcon.class = 'job-symbols';
+            
+            iconLink.appendChild(buildingIcon);
+            iconLink.appendChild(locationIcon);
             cvEntry.appendChild(iconLink);
 
-            // const url = document.createElement('a');
-            // url.setAttribute('href', repo.html_url);
-            // url.innerHTML = 'View GitHub repo here';
-            // repoEntry.appendChild(url);
+            
 
             const separator = document.createElement('hr');
             cvEntry.appendChild(separator);
