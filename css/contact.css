@@ -3,7 +3,7 @@ section.contact{
 } 
 
 .contact-h1{
-    font-size: 1rem;
+    font-size: 2rem;
     color: var(--text-color);
     margin: 10px;
     padding: 10px;
@@ -20,4 +20,14 @@ section.contact{
 .contact a{
     text-decoration: none;
     color: var(--text-color);
+}
+
+.contact-h3{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
 }
