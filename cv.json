@@ -1,0 +1,74 @@
+
+[
+    {
+        "id": 1,
+        "type": "Job",
+        "title": "Second line technician",
+        "startDate": "2023-09",
+        "endDate": "2024-09",
+        "place": "Vimla AB",
+        "city": "Stockholm",
+        "description": "After a reorganization, my previous position as Operational Coordinator was transformed and replaced with a new Second line team. Part of this role is to be available to support employees during ongoing communication with customers. This means, for example, acting as a sounding board for questions and helping to troubleshoot customers' cases during the course of the working day."
+    },
+    {
+        "id": 2,
+        "type": "Job",
+        "title": "Operational Coordinator",
+        "startDate": "2021-09",
+        "endDate": "2023-09",
+        "place": "Vimla AB",
+        "city": "Stockholm",
+        "description": "In this role, I was responsible for troubleshooting and escalating cases to Vimla's parent company Telenor and other system suppliers. This means that I act as Third line support and handle matters as First line or Second line cannot solve for various reasons. I am also responsible for ensuring that all our technical trainings are correct and help our Operations team with troubleshooting and updating information about system changes etc. and forward to support. Work closely with the tech team to help as a QA tester to review the various releases to be released as well as collect bugs to be fixed."
+    },
+    {
+        "id": 3,
+       "type": "Job",
+        "title": "Support Agent + QA Tester",
+        "startDate": "2019-07",
+        "endDate": "2021-09",
+        "place": "Vimla AB",
+        "city": "Stockholm",
+        "description": "When I started working at Vimla, I worked as a support agent and in this position I handled mail and chat. I have also held training sessions for new hires and ensured that our internal guides were updated and correct. Here I also had an additional area of ​​responsibility as a QA tester for new releases developed by the technology department. This involved testing various features and bug fixes so that they worked in the support systems used by the rest of the support department before they went live."
+    },
+    {
+        "id": 4,
+       "type": "Job",
+        "title": "Electricity trading advisor",
+        "startDate": "2018-05",
+        "endDate": "2019-05",
+        "place": "Kundkraft AB",
+        "city": "Stockholm",
+        "description": "Here I worked in member services as an electrical advisor. I worked a lot with email handling and conversations with private customers where I provided support to the members. I was responsible for mail handling when needed and helped with training of new employees."
+    },
+    {
+        "id": 5,
+       "type": "Education",
+        "title": "Fullstack JavaScript",
+        "startDate": "2024-09",
+        "endDate": "Present",
+        "place": "Chas Academy",
+        "city": "Stockholm",
+        "description": "Im curently enrolled in a Fullstack JavaScript course at Chas Academy higher vocational education. Im on my first semester but soon I will be a Fullstack developer!"
+    },
+    {
+        "id": 6,
+       "type": "Education",
+        "title": "BFU Open Source Fullstack",
+        "startDate": "2024-04",
+        "endDate": "2024-05",
+        "place": "Chas Academy",
+        "city": "Stockholm",
+        "description": "Pre-course for fullstack Open Source and programming 1. Here I made my first ever game. Look at my projects to see it for yourself!"
+    },
+    {
+        "id": 7,
+       "type": "Education",
+        "title": "Hotel & Tourism Program",
+        "startDate": "2013-08",
+        "endDate": "2016-06",
+        "place": "Stockholms Hotell- & Restaurangskola",
+        "city": "Stockholm",
+        "description": "High school education in Hotel and tourism and conference."
+    }
+
+]

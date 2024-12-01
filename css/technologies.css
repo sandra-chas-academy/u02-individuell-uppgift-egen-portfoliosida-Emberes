@@ -1,0 +1,22 @@
+.all-the-technologies-logo{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px; 
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-the-technologies-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .html-logo, .css-logo, .js-logo, .git-logo, .vscode-logo, .github-logo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+  }
+

@@ -1,0 +1,22 @@
+/* färger för sidan  */
+
+/* lightmode */
+:root {
+    --gradient: linear-gradient(45deg, #bb86fc, #AA5486);
+    --background-color: white;
+    --text-color: black;
+    --primary-color: #AA5486;
+    --secondary-color: #FC8F54;
+    --border-color: #FDE7BB; 
+}
+
+/* Darkmode */
+ @media (prefers-color-scheme: dark) {
+:root {
+    --gradient: linear-gradient(45deg, #bb86fc, #AA5486);
+    --background-color: black;
+    --text-color: white;
+    --primary-color: #AA5486;
+    --secondary-color: #FC8F54;
+    --border-color: #FDE7BB; 
+} }

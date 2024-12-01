@@ -1,0 +1,33 @@
+section.contact{
+    text-align: center;
+} 
+
+.contact-h1{
+    font-size: 2rem;
+    color: var(--text-color);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+}
+
+.contact a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.contact-h3{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+}

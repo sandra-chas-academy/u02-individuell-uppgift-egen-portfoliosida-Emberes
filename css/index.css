@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.gradient-name{
+    background: var(--gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+}
+
+/* loga 007 */
+.logo_type{
+    max-width: fit-content;
+    width: 4rem;
+    background-color: var(--gradient);
+    margin: 0.7rem 0rem 0rem 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Poppins;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--primary-color-h1);
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--primary-color-h1);
+    margin: 10px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: var(--primary-color-h1);
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    display: flex;
+    text-align: center;
+}
+
+h4{
+    font-size: 1rem;
+    color: var(--primary-color-h1);
+    padding: 0 0 0 10px;
+    margin: 0 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+    color: var(--text-color);
+}
+
+/* Hamburgar knappen  */
+.hamburger_menu_item{
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.hamburger_menu_item :hover {
+text-decoration: underline;
+}
+
+.hamburger_button_icon{
+    position: fixed;
+    z-index: 100;
+    top: 0.7rem; 
+    right: 1rem; 
+    padding: 4px;
+    border: none; 
+    /* border: black solid 1px; */
+    background: var(--background-color);
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+}
+
+.hamburger_menu_icon_close{
+    display: none;
+
+}
+
+.hamburger_menu{
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    z-index: 99;
+    background: var(--background-color);
+    list-style: none;
+    padding-top: 4rem;
+}
+
+.showMenu{
+    transform: translateY(0);
+}
+
+/* emojisarna för länkarna  */
+.logo_navigation_bar{
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px;
+    position: absolute;
+    right: 33px;
+    top: 0px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.logo_navigation_bar a{
+    color: var(--secondary-color);
+}
+
+/* styling för texten som åker som en loop funktionen på alla sidor */
+#textSlider{
+    width: 100%;
+    height: 50px;
+    /* overflow: hidden; */
+    position: fixed;
+    background-color: var(--background-color);
+    bottom: 0px;
+}
+
+#theText{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    white-space: nowrap;
+    font-size: 1rem;
+    left: 0;
+    transition: left 0.2s linear;
+    text-align: center;
+    bottom: 0px;
+}

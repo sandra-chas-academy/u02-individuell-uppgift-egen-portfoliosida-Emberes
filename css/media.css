@@ -1,0 +1,72 @@
+/* Desktop layout */
+@media (min-width: 1080px) {
+    body {
+        font-size: 20px;
+    }
+
+    .logo_navigation_bar{
+        font-size: 1.5rem;
+    }
+
+    /* loga 007 */
+    .logo_type{
+    max-width: fit-content;
+    width: 4rem;
+    height: 3rem;
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
+
+    section.contact{
+        text-align: center;
+    } 
+    
+    .contact-h1{
+        font-size: 3rem;
+        color: var(--text-color);
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    h3{
+        display: flex;
+        /* flex-direction: column; */
+        text-decoration: none;
+        color: var(--text-color);
+        text-align: center;
+        width: auto;
+        align-items: center;
+        justify-content: center
+    }
+
+    .welcom-text{
+        display: flex;
+        width: auto;
+        max-width: 80%;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    #experience-item{
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #pill-job, #pill-edu{
+        align-items: flex-end;
+    }
+
+    #place{
+        margin: 10px 0px 0px 10px;
+    }
+
+    #city{
+        margin: 10px 0px 0px 10px;
+    }
+};
