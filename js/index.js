@@ -49,10 +49,3 @@ function slideText() {
       animationFrame = requestAnimationFrame(slideText);
     }
   });
-  
-  // Stoppa sliden när man hoovrar över 
-  
-//   text.addEventListener('mouseleave', () => {
-//     cancelAnimationFrame(animationFrame);
-//     isAnimating = false; // Mark animation as stopped
-//   });
