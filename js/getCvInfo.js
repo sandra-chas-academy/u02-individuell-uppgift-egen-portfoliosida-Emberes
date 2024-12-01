@@ -15,6 +15,7 @@ async function getCvInfo(filePath) {
             type.textContent =  `${cv.type}`;
             cvEntry.appendChild(type);
             const title = document.createElement('h4');
+            title.id = 'title';
             title.textContent =  `${cv.title}`;
             cvEntry.appendChild(title);
             const timeSpan = document.createElement('span');
@@ -22,23 +23,26 @@ async function getCvInfo(filePath) {
             timeSpan.textContent =  `${cv.startDate} - ${cv.endDate}`;
             cvEntry.appendChild(timeSpan);
             const place = document.createElement('p');
+            place.id = 'place';
             place.textContent =  `${cv.place}`;
             cvEntry.appendChild(place);
             const city = document.createElement('p');
+            city.id = 'city';
             city.textContent =  `${cv.city}`;
             cvEntry.appendChild(city);
             const description = document.createElement('p');
+            description.id = 'description';
             description.textContent =  `${cv.description}`;
             cvEntry.appendChild(description);
 
             const iconLink = document.createElement('a');
             iconLink.setAttribute('href', cv.html_url);             
             const buildingIcon = document.createElement('i');
+            buildingIcon.id = 'job-symbols';
             buildingIcon.classList.add('fa-solid', 'fa-building');
-            buildingIcon.class = 'job-symbols';
             const locationIcon = document.createElement('i');
+            locationIcon.class = 'job-symbols-location';
             locationIcon.classList.add('fa-solid', 'fa-location-dot');
-            locationIcon.class = 'job-symbols';
             
             iconLink.appendChild(buildingIcon);
             iconLink.appendChild(locationIcon);
