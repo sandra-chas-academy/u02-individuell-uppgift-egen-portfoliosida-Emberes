@@ -13,6 +13,7 @@ Det har blivit lättare att hålla reda på alla HTML- och CSS-filer tack vare a
 Jag har även lagt till en `sleep`-funktion när repos laddas in för att simulera en längre laddningstid och för att demonstrera min spinner.
 
 En till brist jag har märkt är att jag borde ha gjort mer github commits, så att man inte förlorar någon kod om något skulle hända med datorn. 
+URL för Netlify för portfoliosidan: https://portfolio-cv-es.netlify.app/
 
 ---
 
