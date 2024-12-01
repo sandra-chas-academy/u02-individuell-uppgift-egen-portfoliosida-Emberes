@@ -11,9 +11,11 @@ async function getCvInfo(filePath) {
             const cvEntry = document.createElement('div');
             cvEntry.id = 'experience-item';
             const type = document.createElement('span');
+            type.id = 'type';
             type.textContent =  `${cv.type}`;
             cvEntry.appendChild(type);
             const title = document.createElement('h4');
+            title.id = 'title';
             title.textContent =  `${cv.title}`;
             cvEntry.appendChild(title);
             const timeSpan = document.createElement('span');
@@ -21,27 +23,32 @@ async function getCvInfo(filePath) {
             timeSpan.textContent =  `${cv.startDate} - ${cv.endDate}`;
             cvEntry.appendChild(timeSpan);
             const place = document.createElement('p');
+            place.id = 'place';
             place.textContent =  `${cv.place}`;
             cvEntry.appendChild(place);
             const city = document.createElement('p');
+            city.id = 'city';
             city.textContent =  `${cv.city}`;
             cvEntry.appendChild(city);
             const description = document.createElement('p');
+            description.id = 'description';
             description.textContent =  `${cv.description}`;
             cvEntry.appendChild(description);
 
-            const icon = document.createElement('i');
-            icon.classList.add('fa-solid', 'fa-building'); 
-            icon.classList.add('fa-solid', 'fa-location-dot');
             const iconLink = document.createElement('a');
-            iconLink.setAttribute('href', cv.html_url); 
-            iconLink.appendChild(icon);
+            iconLink.setAttribute('href', cv.html_url);             
+            const buildingIcon = document.createElement('i');
+            buildingIcon.id = 'job-symbols';
+            buildingIcon.classList.add('fa-solid', 'fa-building');
+            const locationIcon = document.createElement('i');
+            locationIcon.class = 'job-symbols-location';
+            locationIcon.classList.add('fa-solid', 'fa-location-dot');
+            
+            iconLink.appendChild(buildingIcon);
+            iconLink.appendChild(locationIcon);
             cvEntry.appendChild(iconLink);
 
-            // const url = document.createElement('a');
-            // url.setAttribute('href', repo.html_url);
-            // url.innerHTML = 'View GitHub repo here';
-            // repoEntry.appendChild(url);
+            
 
             const separator = document.createElement('hr');
             cvEntry.appendChild(separator);

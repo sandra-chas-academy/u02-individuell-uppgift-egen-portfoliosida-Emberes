@@ -1,5 +1,5 @@
 #repo_container{
-    background-color: aquamarine;
+    background-color: var(--background-color);
 }
 
 .lds-heart,
@@ -67,4 +67,18 @@
   100% {
     transform: scale(0.9);
   }
+}
+
+#date{
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+}
+
+h4{
+  display: flex;
+  justify-content: flex-start;
 }
