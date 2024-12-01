@@ -2,8 +2,8 @@
 
 /* lightmode */
 :root {
-    --gradient: linear-gradient(45deg, #f8e71c, #ff6b6b);
-    --background-color: #FBF4DB;
+    --gradient: linear-gradient(45deg, #bb86fc, #AA5486);
+    --background-color: white;
     --text-color: black;
     --primary-color: #AA5486;
     --secondary-color: #FC8F54;
@@ -11,13 +11,12 @@
 }
 
 /* Darkmode */
-/* @media (prefers-color-scheme: dark) {
-    :root {
-        --gradient: linear-gradient(45deg, #ff6b6b, #f8e71c);
-        --background-color: #121212;
-        --text-color: #e0e0e0; 
-        --primary-color: #bb86fc;
-        --secondary-color: #03dac6;
-        --border-color: #333;
-    }
-} */
+ @media (prefers-color-scheme: dark) {
+:root {
+    --gradient: linear-gradient(45deg, #bb86fc, #AA5486);
+    --background-color: black;
+    --text-color: white;
+    --primary-color: #AA5486;
+    --secondary-color: #FC8F54;
+    --border-color: #FDE7BB; 
+} }

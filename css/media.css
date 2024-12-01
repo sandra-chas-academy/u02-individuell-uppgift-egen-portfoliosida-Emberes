@@ -8,6 +8,16 @@
         font-size: 1.5rem;
     }
 
+    /* loga 007 */
+    .logo_type{
+    max-width: fit-content;
+    width: 4rem;
+    height: 3rem;
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
+
     section.contact{
         text-align: center;
     } 
@@ -30,9 +40,33 @@
         align-items: center;
         justify-content: center
     }
+
+    .welcom-text{
+        display: flex;
+        width: auto;
+        max-width: 80%;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    #experience-item{
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #pill-job, #pill-edu{
+        align-items: flex-end;
+    }
+
+    #place{
+        margin: 10px 0px 0px 10px;
+    }
+
+    #city{
+        margin: 10px 0px 0px 10px;
+    }
 };
-
-/* TABLET */
-@media (min-width: 750px) {
-
-}

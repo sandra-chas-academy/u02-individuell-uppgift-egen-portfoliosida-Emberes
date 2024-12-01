@@ -3,16 +3,19 @@ section.home-page{
     justify-content: flex-start;
     align-items: flex-start;
     font-weight: bold;
-    padding-left: 50px;
-    padding-top: 200px;
+    padding-top: 50px;
+    margin-top: 100px;
     height: 100vh;
 }
 
-.profile-photo{
+.profile_photo{
+    border-color: var(--gradient);
     display: flex;
     border-radius: 50%;
     width: 16rem;
     height: 16rem;
-    border: solid black;
+    border: solid var(--gradient);
 }
+
+
 

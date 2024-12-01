@@ -33,7 +33,7 @@
     {
         "id": 4,
        "type": "Job",
-        "title": "Employee",
+        "title": "Electricity trading advisor",
         "startDate": "2018-05",
         "endDate": "2019-05",
         "place": "Kundkraft AB",
@@ -48,17 +48,17 @@
         "endDate": "Present",
         "place": "Chas Academy",
         "city": "Stockholm",
-        "description": "I have completed my B.Tech in Computer Science and Engineering from IIT Roorkee."
+        "description": "Im curently enrolled in a Fullstack JavaScript course at Chas Academy higher vocational education. Im on my first semester but soon I will be a Fullstack developer!"
     },
     {
         "id": 6,
        "type": "Education",
-        "title": "Pre-corse for Open Source Fullstack",
+        "title": "BFU Open Source Fullstack",
         "startDate": "2024-04",
         "endDate": "2024-05",
         "place": "Chas Academy",
         "city": "Stockholm",
-        "description": "Pre-corse for fullstack Open Source and programming 1."
+        "description": "Pre-course for fullstack Open Source and programming 1. Here I made my first ever game. Look at my projects to see it for yourself!"
     },
     {
         "id": 7,

@@ -22,17 +22,14 @@ async function getRepos(username) {
         const container = document.getElementById('repo_container');
 
         data.forEach(repo => {
-            console.log(repo);
-            console.log(`Repository Name: ${repo.name}`); 
-            console.log(`Repository URL: ${repo.html_url}`);
-            console.log(`Repository Description: ${repo.description}`);
             const repoEntry = document.createElement('div');
             const name = document.createElement('h4');
-            name.textContent =  `Repo Name: ${repo.name}`;
+            name.id = 'h4-projects'
+            name.textContent =  `${repo.name}`;
             repoEntry.appendChild(name);
 
             const description = document.createElement('p');
-            description.textContent = `Description: ${repo.description}`;
+            description.textContent = `${repo.description}`;
             repoEntry.appendChild(description);
 
             const languages = document.createElement('p');
@@ -60,6 +57,7 @@ async function getRepos(username) {
             const icon = document.createElement('i');
             icon.classList.add('fa-brands', 'fa-github'); 
             const iconLink = document.createElement('a');
+            iconLink.id = 'github-icon';
             iconLink.setAttribute('href', repo.html_url); 
             iconLink.appendChild(icon);
             repoEntry.appendChild(iconLink);
@@ -67,6 +65,7 @@ async function getRepos(username) {
             const url = document.createElement('a');
             url.setAttribute('href', repo.html_url);
             url.innerHTML = 'View GitHub repo here';
+            url.id='repo-tag';
             repoEntry.appendChild(url);
 
             const separator = document.createElement('hr');
