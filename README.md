@@ -4,13 +4,15 @@
 
 - Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
 
-Portfolio-sidan innehåller mitt CV och hämtad information från GitHub på mina tidigare projekt. Designen skiljer sig något från U01-projektet, då jag tog mig friheten att ändra sida utseendet efter eget tycke.
+Portfolio-sidan innehåller mitt CV och hämtad information från GitHub på mina tidigare projekt. Designen skiljer sig något från U01-projektet, då jag tog mig friheten att ändra sida utseendet efter eget tycke. 
 
 Jag har lagt ner mycket tid på att få mina JavaScript-funktioner att fungera och att kunna hämta information från GitHubs API samt en JSON-fil. En utmaning jag har stött på är att stylingen av svaren från anropen är knepigare, vilket gör att sidan inte blev så snygg som jag hade önskat. Trots detta har jag lärt mig mycket av projektet, och en styrka i projektet är att jag har tre JavaScript-funktioner som fungerar som de ska.
 
 Det har blivit lättare att hålla reda på alla HTML- och CSS-filer tack vare att jag delat upp min CSS i flera filer, vilket gör det enklare att hitta och styla olika element för varje sida. En brist i den nuvarande lösningen är att min `getRepos`-funktion gör anrop till GitHub utan autentisering. Det leder till att jag slår i en gräns som blockerar anropen. Detta händer när sidan laddas om för många gånger, vilket jag upplevde under CSS-stylingsprocessen. I en miljö med många användare hade jag behövt använda en autentisering nyckel för att öka limit enligt GitHubs dokumentation, vilket skulle vara passande i en produktionsmiljö.
 
 Jag har även lagt till en `sleep`-funktion när repos laddas in för att simulera en längre laddningstid och för att demonstrera min spinner.
+
+En till brist jag har märkt är att jag borde ha gjort mer github commits, så att man inte förlorar någon kod om något skulle hända med datorn. 
 
 ---
 
